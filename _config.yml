@@ -1,3 +1,8 @@
    title: Blog de Práctica
    description: Aprendiendo Jekyll con randomoctopus
    theme: minima
+   
+   # Menú de navegación
+header_pages:
+  - about.md
+  - contact.md
