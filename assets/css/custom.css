@@ -3,13 +3,15 @@
 
 @import "{{ site.theme }}";
 
-body {
-  background-color: #f5f5f5;
-  color: #333;
-}
-.site-header {
-  background-color: #2c3e50;
-}
-.site-header {
-  background-color: #e74c3c !important;
-}
+   /* ¡Este CSS SÍ funcionará! */
+   .site-header {
+     background: #e74c3c !important; /* Rojo vibrante */
+     color: white !important;
+   }
+   .post-list li {
+     border-bottom: 2px solid #e74c3c !important;
+   }
+   body {
+     font-family: 'Arial', sans-serif;
+     background: #f8f9fa !important;
+   }
